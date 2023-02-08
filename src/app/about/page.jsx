@@ -1,5 +1,8 @@
 export default function About() {
+    throw new Error('failed to load data')
     return (
-        <div>About Page</div>
+        <div>
+            <h2>About Page</h2>
+        </div>
     )
 }
