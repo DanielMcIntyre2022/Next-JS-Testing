@@ -6,6 +6,11 @@ export default async function Home() {
   return (
     <main>
       <h1 className='text-lg'>Hello Next!</h1>
+      {response.results.map(movie => (
+        <div>
+        <h1>{movie.title}</h1>
+      </div>
+      ))} 
     </main>
   )
 }
